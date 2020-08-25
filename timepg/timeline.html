@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<span style="font-family: Montserrat, sans-serif;">
+<head>
+
+    <meta charset="utf-8">
+    <title> Earthquake Timeline </title>
+    <!-- header css -->
+    <link rel="stylesheet" type="text/css" href="header.css">
+      <!-- footer css -->
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="matslide1.css">
+    <script src="header.js"></script>
+
+      <link rel="stylesheet" href="timeline.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <script src='https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js'></script>
+
+  <!-- Local Bootstrap because im literally sobbing -->
+  <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href=../"bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+  <script  src="timeline.js"></script>
+
+</head>
+<body>
+
+  <!-- header -->
+  <nav id="myNavbar" class="navbar navbar-default navbar-fixed-top" style="background-color:white" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="../homepg/home.html" style="color:#002873; font-size:35px; font-weight: 500;">ExhibitLab</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav" style="font-size:15px">
+                <li class="dropdown">
+
+                <li class="dropdown"><a href="#exh">EXHIBIT</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="../timepg/timeline.html">Timeline</a></li>
+                    <li><a href="../matpg/material.html">Materials</a></li>
+                    <li><a href="../northridgepg/northridge.html">Northridge Earthquake</a></li>
+                    <li><a href="../framespg/frames.html">Steel Frames</a></li>
+                    <li><a href="../crsbfpg/crsbf.html">CRSBF</a></li>
+                    <li><a href="../outcomespg/outcomes.html">Global Impacts</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown"><a href="#mod">MODEL</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">2D and 3D Models</a></li>
+                    <li><a href="#">Exhibit Walkthrough</a></li>
+                    <li><a href="../outcomemodelspg/outcomemodels.html">Outcome Modeling</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown"><a href="#res">RESEARCH</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Thesis</a></li>
+                    <li><a href="#">Context</a></li>
+                    <li><a href="#">Mathematical Proof</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown"><a href="#pub">PUBLICATION</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Report</a></li>
+                    <li><a href="#">Additional Sources</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown"><a href="#med">MEDIA</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="https://www.henryburtonjr.com/">Professor Burton's Website</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown"><a href="#tem">TEAM</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#prof">Leading Professor</a></li>
+                    <li><a href="#phd">PhD Students</a></li>
+                    <li><a href="#grad">Grad Researchers</a></li>
+                    <li><a href="#undergrad">Undergrad Researchers</a></li>
+                    <li><a href="#extra">Additional Support</a></li>
+                  </ul>
+                </li>
+
+              </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#contact" class="material-icons" style="font-size:20px"> mail_outline </a></li>
+                <li><a href="#search" class="material-icons" style="font-size:20px">search</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+  <!-- !header -->
+
+  <section>
+    <div class="matslide1Container">
+      <img class="image" src="https://cdn.redshift.autodesk.com/2018/08/future-of-buildings-header.jpg" alt="leaf on the ground">
+      <div class="content">
+        <h1><span style="color:#c4f5ff">Earthquake Timeline</span></h1>
+        <p>Scroll down to explore the major earthquakes that shook the US from the 20th century and onward. </p>
+      </div>
+    </div>
+  </section>
+
+<!-- partial:index.partial.html -->
+
+
+<section class="timeline">
+  <div class="container">
+
+    <div class="timeline-item">
+      <div class="timeline-img"></div>
+        <div class="timeline-content timeline-card js--fadeInLeft">
+          <div class="timeline-img-header sf-img">
+            <h2 style="color:white">San Francisco Earthquake<br>7.9 magnitude</h2>
+          </div>
+        <li>Building located on “filled” soil performed worse than buildings on natural ground</li>
+        <li>Buildings with steel frames and unreinforced masonry infill walls
+          performed the best, other buildings (wood frames and unreinforced
+          stone and brick masonry) performed worse</li>
+        <li>Led to building codes requiring tall buildings to have complete
+          vertical load-carrying space frames and buildings over 240 ft to have
+          moment resisting space frames</li>
+        <li>More than 3,000 people died</li>
+        <br>
+      </div>
+      <div class="timeline-dayr1 js--fadeInRight">April 18, 1906</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-img"></div>
+      <div class="timeline-content timeline-card js--fadeInRight">
+        <div class="timeline-img-header li-img">
+          <h2 style="color:white">Long Island Earthquake<br>6.3 magnitude</h2>
+        </div>
+        <li>Many unreinforced masonry buildings were damaged</li>
+        <li>75% of schools in the area were damaged or destroyed</li>
+        <li>Caused California legislators to prohibit the construction of more
+          unreinforced masonry buildings and enabled requirements for high-quality
+          design and construction of schools</li>
+        <li>Set a precedent for the prohibition of certain structural systems
+          and acknowledgement that some buildings and their occupants were more
+          important that others and should be designed to be safer</li>
+        <li>Resulted in the first mandatory seismic design code in the US</li>
+        <li>115 to 120 people died</li>
+        <li>$40 millions of damaged</li>
+        <br>
+      </div>
+      <div class="timeline-dayl js--fadeInLeft">March 10, 1933</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-img"></div>
+        <div class="timeline-content timeline-card js--fadeInLeft">
+          <div class="timeline-img-header el-img">
+            <h2 style="color:white">El Centro Earthquake<br>7.0 magnitude</h2>
+          </div>
+        <li>Caused widespread damage to irrigation systems</li>
+        <li>First strong test of schools designed to be earthquake-resistant after the 1933 Long Beach earthquake, 15 of these had no apparent damage</li>
+        <li>USGS recorded very high-quality, strong ground motion data</li>
+        <li>Most of early work by earthquake engineering researchers was from these strong ground motions</li>
+        <li>9 people died, and 20 injured</li>
+        <li>$6 millions of damage</li>
+
+        <br>
+      </div>
+      <div class="timeline-dayr2 js--fadeInRight">May 18, 1940</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-img"></div>
+      <div class="timeline-content timeline-card js--fadeInRight">
+        <div class="timeline-img-header kc-img">
+          <h2 style="color:white">Kern Country Earthquake<br>7.4 magnitude</h2>
+        </div>
+        <li>Well-designed buildings had slight damage, but old and poorly-built buildings were damaged or destroyed</li>
+        <li>Strong ground motion data also heavily used for research</li>
+        <li>14 people died and 100 injured</li>
+        <li>$70 millions of damage</li>
+
+        <br>
+      </div>
+      <div class="timeline-dayl2 js--fadeInLeft">July 21, 1952</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-img"></div>
+      <div class="timeline-content timeline-card js--fadeInLeft">
+        <div class="timeline-img-header sfr-img">
+          <h2 style="color:white">San Fernando Earthquake<br>6.6 magnitude</h2>
+        </div>
+        <li>Damaged many code-conforming buildings that engineers thought were earthquake-resistant</li>
+        <li>Olive View Medical Building: wings pulled away from the main building, several stair towers collapsed, first story was crushed</li>
+        <li>Recognized the importance of detailing in relation to performance in earthquakes</li>
+        <li>Occupancy categories and site classes were introduced into the building code</li>
+        <li>About 65 people died and 2,000 injured</li>
+        <li>$505-553 millions of damage</li>
+        <br>
+      </div>
+      <div class="timeline-dayr3 js--fadeInRight">February 9, 1971</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-img"></div>
+      <div class="timeline-content timeline-card js--fadeInRight">
+        <div class="timeline-img-header iv-img">
+          <h2 style="color:white">Imperial Valley Earthquake<br>6.4 magnitude</h2>
+        </div>
+        <li>Relatively small amount of structural damage</li>
+        <li>Imperial County Services Building: all of the east end first-floor
+          columns were crushed  due to overturning moment, exterior east wall also started to lean due to this</li>
+        <li>Led building code to require the design of columns under discontinuities to include the overstrength factor of the building above</li>
+        <li>91 people injured</li>
+        <li>$30 millions of damage</li>
+        <br>
+      </div>
+      <div class="timeline-dayl3 js--fadeInLeft">October 15, 1979</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-img"></div>
+        <div class="timeline-content timeline-card js--fadeInLeft">
+          <div class="timeline-img-header mc-img">
+            <h2 style="color:white">Mexico City Earthquake<br>8.1 magnitude</h2>
+          </div>
+        <li>Over 1,000 masonry and reinforced concrete buildings were damaged or destroyed</li>
+        <li>2 high-rise steel buildings collapsed due to local buckling near the
+          plates of the steel box columns, which caused the seams of the columns to separate and the columns to buckle</li>
+        <li>Resulted in the building code requiring columns to be able to resist the maximum axial load that would be delivered to the columns</li>
+        <li>More than 5,000 people died and 30,000 injured</li>
+        <li>$4 billions of damage</li>
+        <br>
+      </div>
+      <div class="timeline-dayr4 js--fadeInRight">September 19, 1985</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-img"></div>
+      <div class="timeline-content timeline-card js--fadeInRight">
+        <div class="timeline-img-header lp-img">
+          <h2 style="color:white">Loma Prieta Earthquake<br>7.1 magnitude</h2>
+        </div>
+        <li>28 buildings recorded ground motion data, which helped with design
+          and analysis procedures. It additionally allowed engineers to study
+          the earthquake itself to better predict performance in future high-magnitude earthquakes</li>
+        <li>Modern buildings were relatively undamaged, but older buildings suffered a lot of damage</li>
+        <li>Data gathered from this earthquake and earlier earthquakes used to develop
+          Site Class factors in the building code and numerical models to help simulate earthquakes for analysis</li>
+        <li>63 killed and 3,757 injured</li>
+        <li>$6 billions of damage</li>
+        <br>
+      </div>
+      <div class="timeline-dayl js--fadeInLeft">August 8, 1989</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-img"></div>
+        <div class="timeline-content timeline-card js--fadeInLeft">
+          <div class="timeline-img-header n-img">
+            <h2 style="color:white">Northridge Earthquake<br>6.7 magnitude</h2>
+          </div>
+        <li>Several portions of major freeways collapsed</li>
+        <li>Discovered fractures in the connections of modern steel buildings</li>
+        <li>Changes in practice: introduction of a new grade of structural steel
+          with controlled strength, requirements to accurately test connections,
+          use weld filler of a certain toughness, and remove weld tabs after welding</li>
+        <li>Building code changed to require redundancy in structural design, as it was observed that buildings with more redundancies fared better</li>
+        <li>57 killed and more than 8,700 injured</li>
+        <li>$13-50 billions of damage</li>
+        <br>
+      </div>
+      <div class="timeline-dayr5 js--fadeInRight">January 17, 1994</div>
+    </div>
+
+  </div>
+</section>
+<!-- partial -->
+
+<!-- footer -->
+    <div class="footer1">
+      <br>
+      <a class="footer1-title" style="color:#002873"> ExhibitLab</a> <br> <br>
+      <div class="footer1-major">
+        <div class="column" >
+          <a href="#exhibit"><h4>EXHIBIT</h4></a>
+          <a href="../timepg/timeline.html"><p>Timeline</p></a>
+          <a href="../matpg/material.html"><p>Material</p></a>
+          <a href="../framespg/frames.html"><p>Steel Frames</p></a>
+          <a href="../northridgepg/northridge.html"><p>Northridge Earthquake</p></a>
+          <a href="../crsbfpg/crsbf.html"><p>CRSBF</p></a>
+          <a href="../outcomespg/outcomes.html"><p>Global Impacts</p></a>
+        </div>
+
+
+
+        <div class="column">
+          <a href="#model"><h4>MODEL</h4></a>
+          <a href="#2D"><p>2D and 3D Models</p></a>
+          <a href="#sketchup"><p>Exhibit Walkthrough</p></a>
+          <a href="../outcomemodelspg/outcomemodels.html"><p>Outcome Modeling</p></a>
+        </div>
+
+
+        <div class="column">
+          <a href="#research"><h4>RESEARCH</h4></a>
+          <a href="#thesis"><p>Thesis</p></a>
+          <a href="#context"><p>Context</p></a>
+          <a href="#proof"><p>Mathematical Proof</p></a>
+        </div>
+
+        <div class="column">
+          <a href="#publication"><h4>PUBLICATION</h4></a>
+          <a href="#report"><p>Report</p></a>
+          <a href="#sources"><p>Additional Sources</p></a>
+        </div>
+
+        <div class="column">
+          <a href="#media"><h4>MEDIA</h4></a>
+          <a href="https://www.henryburtonjr.com/"><p>Professor Burton's Website</p></a>
+        </div>
+
+        <div class="column">
+          <a href="#team"><h4>TEAM</h4></a>
+          <a href="#prof"><p>Leading Professor</p></a>
+          <a href="#phd"><p>PhD Students</p></a>
+          <a href="#grad"><p>Grad Researchers</p></a>
+          <a href="#undergrad"><p>Undergrad Researchers</p></a>
+          <a href="#extra"><p>Additional Support</p></a>
+        </div>
+
+        <div class="column">
+          <a href="#contact" style="word-spacing: 0px;"><h4>CONTACT US</h4></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer2">
+      <div class="footer2-left">
+        <p>@UCLA | All Rights Reserved | Other Copyright?</p>
+      </div>
+
+      <div class="footer2-right">
+        <a href="#contact" class='fab fa-instagram' style='font-size:20px;color:#000661'></a>
+        <a href="#contact" class='fab fa-facebook'style='font-size:20px;color:#000661'></a>
+        <a href="#contact" class='fab fa-linkedin'style='font-size:20px;color:#000661'></a>
+
+      </div>
+    </div>
+<!-- !footer -->
+
+    </body>
+  </span>
+</html>

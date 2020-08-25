@@ -1,0 +1,145 @@
+
+/* Title Part */
+.northslide1Container {
+  padding: 30px 50px;
+  padding-bottom: 40px;
+  background-color:#471e0e;
+}
+
+.northslide1Container h2 {
+  font-size: 30px;
+  color:#afcee3;
+  text-align: center;
+}
+/* !Title Part */
+
+/* Base Isolater */
+.northslide2Container {
+  padding: 60px 50px;
+  background-color:#a7c6d4;
+}
+
+.northslide2Container h2 {
+  font-size: 35px;
+  color:#213d52;
+}
+
+
+.northslide2Container p{
+  font-size:25px;
+  color:#42170b;
+  padding-top:5px
+}
+
+/* Column Left Pic */
+.column6-right h2 {
+  font-size: 35px;
+}
+
+.column6-right li {
+  font-size: 18px;
+  color:#575757;
+}
+
+.column6-left{
+  width: 35%;
+  float:left;
+  padding-top: 10px;
+
+}
+
+.column6-right{
+  width: 65%;
+  float: right;
+  padding: 60px 50px;
+}
+
+
+/* .column6-right, .column6-left {
+  height: 870px;
+} */
+
+
+.row6:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* !Column Left Pic */
+/* !Base Isolater */
+
+/* Steel Frames */
+.northslide3Container {
+  padding: 60px 50px;
+  background-color:#dfe7ed;
+  text-align: center;
+}
+
+.northslide3Container h2 {
+  font-size: 35px;
+  color:#1466a3;
+}
+
+.northslide3Container h4{
+  font-size:30px;
+  color:#5a5f70;
+}
+
+.northslide3Container p{
+  font-size:25px;
+  color:#5a5f70;
+  padding: 10px 150px;
+}
+/* !Steel Frames */
+
+/* Shear Wall */
+
+.northslide4Container {
+  padding: 60px 50px;
+  background-color:#0d1942;
+  text-align: left;
+}
+
+.northslide4Container h2 {
+  font-size: 35px;
+  color:#318dd4;
+}
+
+.northslide4Container p{
+  font-size:25px;
+  color:#d9d9d9;
+}
+
+/* Column Right Pic */
+.column4-left h2 {
+  font-size: 35px;
+}
+
+.column4-left li {
+  font-size: 18px;
+}
+
+.column4-left{
+  width: 60%;
+  float:left;
+  padding: 100px 50px;
+
+}
+
+.column4-right{
+  width: 40%;
+  float: right;
+  text-align: center;
+  padding-right: 100px;
+}
+
+.row4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* !Column Right Pic */
+
+
+/* !Shear Wall */

@@ -1,0 +1,257 @@
+
+
+/* full background color */
+.timeline {
+  background-color:#f5f5f5;
+}
+.timeline {
+  position: relative;
+  padding: 100px 0;
+}
+
+/* timeline line */
+.timeline::before {
+  content: '';
+  background: #C5CAE9;
+  width: 5px;
+  height: 95%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* right and left sliding text */
+.timeline-dayl, .timeline-dayl2, .timeline-dayl3{
+  color:#52565e;
+  font-size: 30px
+}
+
+.timeline-dayl {
+  padding: 18px 0px 0px 310px;
+}
+
+.timeline-dayl2 {
+  padding: 18px 0px 0px 340px;
+}
+
+.timeline-dayl3 {
+  padding: 18px 0px 0px 270px;
+}
+
+.timeline-dayr1, .timeline-dayr2, .timeline-dayr3, .timeline-dayr4, .timeline-dayr5{
+    position: absolute;
+    color:#52565e;
+    font-size: 30px
+}
+
+.timeline-dayr1 {
+  top:0;
+  padding: 118px 30px 10px 630px;
+}
+
+.timeline-dayr2 {
+  top:25%;
+  padding: 50px 30px 10px 630px;
+}
+
+.timeline-dayr3 {
+  top:40%;
+  padding: 258px 30px 10px 630px;
+}
+
+.timeline-dayr4 {
+  top:65%;
+  padding: 13px 30px 10px 630px;
+}
+
+.timeline-dayr5 {
+  top:85%;
+  padding: 120px 30px 10px 630px;
+}
+
+/* cards */
+.timeline-item {
+  width: 100%;
+  margin-bottom: 70px;
+}
+.timeline-item:nth-child(even) .timeline-content {
+  float: right;
+  padding: 40px 30px 10px 30px;
+}
+.timeline-item:nth-child(even) .timeline-content .date {
+  right: auto;
+  left: 0;
+}
+.timeline-item:nth-child(even) .timeline-content::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  top: 30px;
+  left: -15px;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #f5f5f5 transparent transparent;
+}
+.timeline-item::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* card background color */
+.timeline-content {
+  position: relative;
+  width: 45%;
+  padding: 10px 30px;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+}
+.timeline-content::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  top: 30px;
+  right: -15px;
+  border-width: 10px 0 10px 15px;
+  border-color: transparent transparent transparent #f5f5f5;
+}
+
+/* timeline dot */
+.timeline-img {
+  width: 30px;
+  height: 30px;
+  background: #3e52b5;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-top: 25px;
+  margin-left: -15px;
+  font-size: 20px;
+}
+
+
+.timeline a:hover, .timeline a:active, .timeline a:focus {
+  text-decoration: none;
+}
+
+
+.timeline-card {
+  padding: 0 !important;
+}
+
+/* timeline text */
+.timeline-content li{
+  font-size: 18px;
+  color:#52565e;
+}
+
+.timeline-content h2{
+  font-size: 35px;
+}
+
+.timeline-card li {
+  padding: 0 20px;
+}
+.timeline-card a {
+  margin-left: 20px;
+}
+
+
+/* timeline pictures */
+.sf-img{
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(110, 26, 19, 0.73)),
+  url("https://cdn.redshift.autodesk.com/2018/08/future-of-buildings-header.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.li-img{
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(110, 26, 19, 0.73)),
+  url("https://cdn.redshift.autodesk.com/2018/08/future-of-buildings-header.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.el-img{
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(110, 26, 19, 0.73)),
+  url("https://cdn.redshift.autodesk.com/2018/08/future-of-buildings-header.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.kc-img{
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(110, 26, 19, 0.73)),
+  url("https://cdn.redshift.autodesk.com/2018/08/future-of-buildings-header.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.sfr-img{
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(110, 26, 19, 0.73)),
+  url("https://cdn.redshift.autodesk.com/2018/08/future-of-buildings-header.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.iv-img{
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(110, 26, 19, 0.73)),
+  url("https://cdn.redshift.autodesk.com/2018/08/future-of-buildings-header.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.mc-img{
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(110, 26, 19, 0.73)),
+  url("https://cdn.redshift.autodesk.com/2018/08/future-of-buildings-header.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.lp-img{
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(110, 26, 19, 0.73)),
+  url("https://cdn.redshift.autodesk.com/2018/08/future-of-buildings-header.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.n-img{
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(110, 26, 19, 0.73)),
+  url("https://cdn.redshift.autodesk.com/2018/08/future-of-buildings-header.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.timeline-img-header {
+  height: 200px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.timeline-img-header h2 {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .timeline::before {
+    left: 50px;
+  }
+  .timeline .timeline-img {
+    left: 50px;
+  }
+  .timeline .timeline-content {
+    max-width: 100%;
+    width: auto;
+    margin-left: 70px;
+  }
+  .timeline .timeline-item:nth-child(even) .timeline-content {
+    float: none;
+  }
+  .timeline .timeline-item:nth-child(odd) .timeline-content::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 30px;
+    left: -15px;
+    border-width: 10px 15px 10px 0;
+    border-color: transparent #f5f5f5 transparent transparent;
+  }
+}

@@ -1,0 +1,71 @@
+.crsbfslide2Container h2{
+  text-align: center;
+  font-size: 35px;
+}
+
+.crsbfslide2Container {
+padding: 60px 50px;
+background-color:#d1d1d1;
+}
+
+
+.column8-left h2 {
+  font-size: 35px;
+  text-align: left;
+}
+
+.column8-left p {
+  font-size: 18px;
+  color:#575757;
+}
+
+.column8-left{
+  width: 50%;
+  float:left;
+
+}
+
+.column8-right{
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+
+.column8-right, .column8-left, .column9-right, .column9-left {
+  height: 290px;
+  padding: 30px 20px;
+}
+
+.row8:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column9-right h2 {
+  font-size: 35px;
+  text-align: left;
+}
+
+.column9-right p {
+  font-size: 18px;
+  color:#575757;
+}
+
+.column9-left{
+  width: 50%;
+  text-align: center;
+  float:left;
+
+}
+
+.column9-right{
+  width: 50%;
+  float: right;
+}
+
+.row9:after {
+  content: "";
+  display: table;
+  clear: both;
+}

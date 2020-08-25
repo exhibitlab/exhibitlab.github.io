@@ -1,0 +1,128 @@
+/* Title Part */
+.northslide1Container {
+  padding: 30px 50px;
+  padding-bottom: 40px;
+  background-color:#471e0e;
+}
+
+.northslide1Container h2 {
+  font-size: 30px;
+  color:#afcee3;
+  text-align: center;
+}
+/* !Title Part */
+
+/* Section 1 */
+.northslide2Container {
+  padding: 60px 50px;
+  background-color:#dfe7ed;
+  text-align: center;
+}
+
+.northslide2Container h2 {
+  font-size: 35px;
+  color:#18446b;
+}
+
+
+.northslide2Container p{
+  font-size:25px;
+  color:#42170b;
+  padding-top:5px
+}
+
+/* Column Center */
+.column4-left h2 {
+  font-size: 35px;
+}
+
+.column4-left li {
+  font-size: 18px;
+}
+
+.column4-left, .column4-right{
+  width: 50%;
+  padding: 0px 90px;
+}
+
+.column4-left{
+  float:left;
+}
+
+.column4-right{
+  float: right;
+}
+
+.row4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* !Column Center */
+/* !Section 1 */
+
+/* Section 2 */
+.northslide3Container {
+  padding: 60px 50px;
+  background-color:#18446b;
+  text-align: center;
+}
+
+.northslide3Container h2 {
+  font-size: 35px;
+  color:#a1c6d4;
+}
+
+.northslide3Container h4{
+  font-size:30px;
+  color:#5a5f70;
+}
+
+.northslide3Container p{
+  font-size:25px;
+  color:#a3a9ad;
+}
+
+.northslide3Container img{
+  width:100%;
+}
+
+/* Column Left Pic */
+/* Create three unequal columns that floats next to each other */
+
+.column6-left, .column6-right, .column6-middle{
+  padding: 20px 50px;
+}
+
+
+.column6-left{
+  width: 30%;
+  float:left;
+}
+
+.column6-right{
+float:right;
+width: 30%;
+}
+
+.column6-middle {
+  width: 40%;
+  float:left;
+}
+
+/* Clear floats after the columns */
+.row6:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column6 {
+    width: 100%;
+  }
+}
+/* !Column Left Pic */
+/* !Section 2 */

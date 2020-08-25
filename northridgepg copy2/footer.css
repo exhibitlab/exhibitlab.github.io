@@ -1,0 +1,61 @@
+.footer1 {
+   width: 100%;
+   padding: 10px 10px 20px 30px;
+   /* top left bottom right */
+   word-spacing: 25px;
+   text-decoration: none;
+   font-size: 35px;
+   line-height: 25px;
+   color:#002873;
+   font-weight: 500;
+}
+
+.footer1-major {
+	font-size: 16px;
+ }
+
+.footer1 a:hover {
+   color: black;
+   background-color: transparent;
+   text-decoration: none;
+ }
+
+a:link {
+  color: #9c9c9c;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #9c9c9c;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 12%;
+  padding: 10px 10px 20px 10px;
+  line-height: 25px;
+  word-spacing: 0px;
+}
+
+/* icon footer */
+
+.footer2 {
+  background-color: #dbdbdb;
+  width:100%;
+  word-spacing: 0px;
+  font-size: 16px;
+  float:left;
+  padding: 15px 5px 1px 15px;
+}
+
+.footer2-left {
+  float: left;
+}
+
+.footer2-right {
+  float:right;
+}
