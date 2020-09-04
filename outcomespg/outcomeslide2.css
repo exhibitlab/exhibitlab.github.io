@@ -1,0 +1,55 @@
+.outcomeslide2Container {
+  background-color:#fcfdff;
+}
+
+.outcomeslide2Container h2 {
+  font-size: 35px;
+  color:#162c63;
+}
+
+.outcomeslide2Container h4 {
+  font-size: 25px;
+  color:#284580;
+  padding-top:30px
+}
+
+.outcomeslide2Container p{
+  font-size: 18px;
+  color:#5c240c;
+  padding-top:5px
+}
+
+/* Column Left Pic */
+.column6-right h2 {
+  font-size: 35px;
+}
+
+.column6-right li {
+  font-size: 18px;
+  color:#575757;
+}
+
+.column6-left{
+  width: 25%;
+  float:left;
+
+}
+
+.column6-right{
+  width: 75%;
+  float: right;
+  padding: 60px 50px;
+}
+
+
+.column6-right, .column6-left {
+  height: 870px;
+}
+
+
+.row6:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* !Column Left Pic */

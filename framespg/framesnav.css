@@ -1,0 +1,101 @@
+
+.framesnav {
+  width: 100%;
+  background-color:#bad9d8;
+  overflow: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.framesnav a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+
+  padding: 30px 75px;
+
+}
+
+.framesnav a:hover {
+  background-color: none;
+  text-decoration: none;
+  color:#7d7d7d;
+}
+
+.active {
+  background-color: #4CAF50;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .framesnav a {
+    float: none;
+    display: block;
+  }
+}
+
+.framesnav2 {
+  width: 100%;
+  background-color:#1a81ad;
+  overflow: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.framesnav2 a {
+  float: left;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 30px 75px;
+}
+
+.framesnav2 a:hover {
+  background-color: none;
+  text-decoration: none;
+  color:#c3cedb;
+}
+
+.active {
+  background-color: #4CAF50;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .framesnav2 a {
+    float: none;
+    display: block;
+  }
+}
+
+
+.buffer {
+  color:#f2f6f7;
+  background-color:#f2f6f7;
+}
+
+i:hover::before {
+  transform: rotate(360deg);
+}
+
+i:before {
+  display: inline-block;/* mandatory to be able to use transform */
+  transition: transform 1s;
+}
+
+a {
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+}

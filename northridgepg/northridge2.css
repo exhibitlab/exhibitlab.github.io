@@ -1,0 +1,146 @@
+.northslide1Container {
+  padding: 30px 50px;
+  padding-bottom: 40px;
+  background-color:#471e0e;
+}
+
+.northslide1Container h2 {
+  font-size: 30px;
+  color:#afcee3;
+  text-align: center;
+}
+
+/* Base Isolater */
+.northslide2Container {
+  /* padding: 60px 50px; */
+  background-color:#d3dee8;
+}
+
+.northslide2Container h2 {
+  font-size: 35px;
+  color:#213d52;
+  padding-bottom:5px
+}
+
+.northslide2Container h4{
+  font-size:25px;
+  font-weight: bold;
+  color:#436770;
+}
+
+.northslide2Container p{
+  font-size:27px;
+  color:#436770;
+  padding-bottom:10px
+}
+
+/* Column Right Pic */
+.column3-left h2 {
+  font-size: 35px;
+}
+
+.column3-left li {
+  font-size: 18px;
+}
+
+.column3-left{
+  width: 65%;
+  float:left;
+  padding: 60px 100px;
+}
+
+.column3-right{
+  width: 35%
+  float: right;
+}
+
+.column3-right, .column3-left{
+  height: 730px;
+}
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* !Column Right Pic */
+
+/* !Base Isolater */
+
+/* Steel Frames */
+.northslide3Container {
+  padding: 60px 50px;
+  background-color:#104952;
+  text-align: center;
+}
+
+.northslide3Container h2 {
+  font-size: 35px;
+  color:#42170b;
+}
+
+.northslide3Container h4{
+  font-size:30px;
+  color:#5a5f70;
+}
+
+.northslide3Container p{
+  font-size:25px;
+  color:#a2d0db;
+}
+
+/* Column Left Pic */
+
+
+.column2-left{
+  width: 35%;
+  float:left;
+  padding-top: 10px;
+
+}
+
+.column2-right{
+  width: 65%;
+  float: right;
+  padding:70px 100px;
+}
+
+
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* !Column Left Pic */
+/* !Steel Frames */
+
+/* Strucural System */
+
+.northslide4Container {
+  padding: 60px 150px;
+  background-color:#91c3cf;
+  text-align: center;
+}
+
+.northslide4Container h2 {
+  font-size: 35px;
+  color:#176266;
+}
+
+.northslide4Container h4{
+  font-size:25px;
+  font-weight: bold;
+  color:#176266;
+}
+
+.northslide4Container p{
+  font-size:25px;
+  color:#3c4242;
+  padding-bottom: 30px;
+}
+
+
+
+/* !Structural Systems */

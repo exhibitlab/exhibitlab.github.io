@@ -1,0 +1,135 @@
+.crsbfslide4Container{
+  background-color:#f2f6f7;
+  padding: 60px 50px;
+}
+
+/* same as og background */
+.filler{
+  background-color: #f2f6f7;
+}
+
+.titletext {
+  text-align: center;
+}
+
+.titletext h2{
+  font-size: 35px;
+  color:#4a220d;
+}
+
+.logo-small {
+  color: #19a8b5;
+  font-size: 50px;
+}
+
+/* First row of Icons */
+@media screen and (max-width: 600px) {
+  .column6 {
+    width: 100%;
+  }
+}
+.row6{
+text-align: center;
+  padding: 10px 50px;
+}
+
+.column6-left, .column6-right, .column6-middle{
+  padding: 20px 50px;
+}
+
+.column6-left, .column6-right, .column6-middle{
+}
+
+.row6 h4,  .row7 h4  {
+  font-size: 20px;
+  color:#34807c;
+}
+
+.row6 p, .row7 p {
+  font-size: 16px;
+  color:#737373;
+  line-height: 25px;
+}
+
+.column6-left{
+  width: 36%;
+  float:left;
+
+}
+
+.column6-right{
+float:right;
+width: 32%;
+}
+
+.column6-middle {
+  width: 32%;
+  float:left;
+}
+
+.row6:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* !First Row of Icons */
+
+
+/* Second Row of Icons */
+.row7{
+text-align: center;
+  padding: 10px 50px;
+}
+
+.column7-left, .column7-right{
+  padding: 20px 50px;
+}
+
+.column7-left, .column7-right{
+}
+
+
+.column7-left{
+  margin-left: 150px;
+  width: 36%;
+  float:left;
+}
+
+.column7-right{
+  margin-right: 150px;
+float:right;
+width: 32%;
+}
+
+.row7:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column7 {
+    width: 100%;
+  }
+}
+
+/* !Second Row of Icons */
+.textblock{
+
+    text-align: center;
+
+}
+
+.textblock p{
+  padding:50px 150px;
+  font-size: 25px;
+  color:#4a220d;
+}
+
+/* Text Block */
+
+
+
+
+/* !Text Block */

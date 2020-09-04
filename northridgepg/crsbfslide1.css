@@ -1,0 +1,42 @@
+.crsbfslide1Container {
+  position: relative;
+  margin: auto;
+}
+
+.crsbfslide1Container img {
+  vertical-align: middle;
+  height:400px;
+  width:100%;
+  filter:brightness(40%);
+}
+
+.crsbfslide1Container .content-2 {
+  position: absolute;
+
+
+  bottom: 0;
+  left:0;
+
+
+  border-bottom: 550px solid rgba(0, 0, 0, 0.5);
+  border-right: 200px solid transparent;
+  border-left: 50px solid rgba(0, 0, 0, 0.5);
+  width:60%;
+  color: #f1f1f1;
+  height:100%;
+}
+
+
+.content-2 h1{
+  color:#e6ecf5;
+  font-size: 35px;
+  padding-top: 320px;
+  padding-right: 1%;
+  text-align: left;
+}
+
+.content-2 p{
+  color:white;
+  text-align:left;
+  font-size: 20px;
+}

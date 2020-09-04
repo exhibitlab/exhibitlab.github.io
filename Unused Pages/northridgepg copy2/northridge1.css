@@ -1,0 +1,59 @@
+
+
+
+/* Create three unequal columns that floats next to each other */
+.row6{
+text-align: center;
+  padding: 60px 50px;
+}
+
+.column6 {
+  text-align: left;
+}
+
+.column6-left, .column6-right, .column6-middle{
+  padding: 20px 50px;
+}
+
+.column6-left, .column6-right, .column6-middle{
+  text-align: left;
+}
+
+.row6 h2 {
+  font-size: 30px;
+}
+
+.row6 p {
+  font-size: 18px;
+  color:#575757;
+}
+
+.column6-left{
+  width: 36%;
+  float:left;
+
+}
+
+.column6-right{
+float:right;
+width: 32%;
+}
+
+.column6-middle {
+  width: 32%;
+  float:left;
+}
+
+/* Clear floats after the columns */
+.row6:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column6 {
+    width: 100%;
+  }
+}

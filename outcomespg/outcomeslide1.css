@@ -1,0 +1,100 @@
+.outcomeslide1Container {
+  padding: 60px 50px;
+  background-color:#255a80;
+}
+
+.outcomeslide1Container h2 {
+  font-size: 35px;
+  color:#17a390;
+}
+
+.outcomeslide1Container h4 {
+  font-size: 30px;
+  color:#88adcf;
+}
+
+.outcomeslide1Container p{
+  font-size: 18px;
+  color:#e6e6e6;
+}
+
+.title1 {
+  text-align: center;
+}
+
+.title1 p{
+  padding:20px 200px;
+  font-size: 20px;
+}
+
+
+/* Column Right Pic */
+.column4-left h2 {
+  font-size: 35px;
+}
+
+.column4-left li {
+  font-size: 18px;
+}
+
+.column4-left{
+  width: 50%;
+  float:left;
+  padding-top: 60px;
+  padding-left: 80px;
+
+}
+
+.column4-right{
+  width: 50%;
+  float: right;
+  text-align: center;
+  padding-right: 100px;
+  padding-top: 60px;
+}
+
+
+.row4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* !Column Right Pic */
+
+
+/* Column Left Pic */
+.column5-right h2 {
+  font-size: 35px;
+}
+
+.column5-right li {
+  font-size: 18px;
+  color:#575757;
+}
+
+.column5-left{
+  width: 50%;
+  text-align: center;
+  float:left;
+
+}
+
+.column5-right{
+  width: 50%;
+  float: right;
+  padding: 60px 50px;
+}
+
+
+/* .column5-right, .column5-left {
+  height: 400px;
+} */
+
+
+.row5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* !Column Left Pic */

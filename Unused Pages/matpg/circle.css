@@ -1,0 +1,93 @@
+.circlem, .circlew, .circlec, .circles {
+border-radius: 100%;
+width: 40px;
+height: 40px;
+text-align: center;
+float:right;
+}
+
+.circlem:hover, .circlew:hover, .circlec:hover, .circles:hover{
+background-color:#91e4ed;
+}
+
+.fas {
+color:white;
+float:center;
+margin-top:30%;
+}
+
+.circlem {
+  background-color: #801d27;
+}
+
+ .circlem:hover > i{
+color:#801d27;
+}
+
+.circlew {
+  background-color:#693405;
+}
+
+ .circlew:hover > i{
+color:#693405;
+}
+
+.circlec {
+  background-color:#4a4a4a;
+}
+ .circlec:hover > i{
+color:#4a4a4a;
+}
+
+.circles {
+  background-color:#262626;
+}
+ .circles:hover > i{
+color:#262626;
+}
+
+.crsbfslide1Container .content-1 {
+  position: absolute;
+  right:0;
+  top:0;
+  width:40%;
+  color: #f1f1f1;
+  height:100%;
+  padding-top: 80px;
+}
+
+.content-1 p{
+  color:#e6fcff;
+  font-size: 28px;
+  text-align: right;
+}
+
+.content-1 .column7-left{
+  width: 90%;
+  float:left;
+}
+
+
+.content-1 .column7-right{
+  width: 10%;
+  float: right;
+  text-align: center;
+
+}
+
+.content-1 .column7-right, .column7-left {
+  height: 70px;
+  /* padding-left: 18%;
+  padding-top:18%;
+  padding-right: 18%; */
+  padding-right: 20px;
+  padding-top:8px;
+
+}
+
+
+.row7:after {
+  content: "";
+  display: table;
+  clear: both;
+}

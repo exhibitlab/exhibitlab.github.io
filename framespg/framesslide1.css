@@ -1,0 +1,14 @@
+
+.center h2{
+  font-size: 35px;
+
+}
+.center {
+  text-align: center;
+  padding: 60px 200px;
+  font-size: 18px
+}
+
+li {
+  list-style: none;
+}
