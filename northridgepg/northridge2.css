@@ -35,30 +35,30 @@
 }
 
 /* Column Right Pic */
-.column4-left h2 {
+.column3-left h2 {
   font-size: 35px;
 }
 
-.column4-left li {
+.column3-left li {
   font-size: 18px;
 }
 
-.column4-left{
+.column3-left{
   width: 65%;
   float:left;
   padding: 60px 100px;
 }
 
-.column4-right{
+.column3-right{
   width: 35%
   float: right;
 }
 
-.column4-right, .column4-left{
+.column3-right, .column3-left{
   height: 730px;
 }
 
-.row4:after {
+.row3:after {
   content: "";
   display: table;
   clear: both;
@@ -93,14 +93,14 @@
 /* Column Left Pic */
 
 
-.column6-left{
+.column2-left{
   width: 35%;
   float:left;
   padding-top: 10px;
 
 }
 
-.column6-right{
+.column2-right{
   width: 65%;
   float: right;
   padding:70px 100px;
@@ -108,7 +108,7 @@
 
 
 
-.row6:after {
+.row2:after {
   content: "";
   display: table;
   clear: both;

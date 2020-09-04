@@ -5,6 +5,7 @@ background-color: #e4eaf0;
 
 .crsbfslide3Container h2, .crsbfslide3Container h3 {
   text-align: center;
+  color:#2d608a;
 }
 
 a:hover {
@@ -12,34 +13,36 @@ a:hover {
 }
 
 /* Part 1 */
-.column11-left h2 {
+.column4-left h2 {
   font-size: 35px;
   text-align: center;
+  color:#4d2817;
 }
 
-.column11-left p {
+.column4-left p {
   font-size: 18px;
   color:#575757;
+
 }
 
-.column11-left{
+.column4-left{
   width: 800px;
   float:left;
   padding-left: 50px;
 
 }
 
-.column11-right{
+.column4-right{
   width: 200px;
   float: left;
   padding:80px 200px;
 }
 
-.column11-right, .column11-left{
+.column4-right, .column4-left{
   height: 700px;
 }
 
-.row11:after {
+.row4:after {
   content: "";
   display: table;
   clear: both;
@@ -55,39 +58,39 @@ a:hover {
 
 
 /* Part 3 */
-.column10-left h3 {
+.column5-left h3 {
   font-size: 27px;
   padding-right: 200px;
   color:#27557a;
 }
-.column10-right h3 {
+.column5-right h3 {
   font-size: 27px;
   color:#27557a;
 }
 
-.column10-left p {
+.column5-left p {
   font-size: 18px;
   color:#575757;
 }
 
-.column10-left{
+.column5-left{
   width: 800px;
   float:left;
   padding-left:300px;
 }
 
-.column10-right{
+.column5-right{
   width: 300px;
   float: left;
 }
 
-.column10-right, .column10-left{
+.column5-right, .column5-left{
   padding-top: 100px;
   height: 500px;
 
 }
 
-.row10:after {
+.row5:after {
   content: "";
   display: table;
   clear: both;

@@ -32,28 +32,28 @@
 }
 
 /* Column Center */
-.column4-left h2 {
+.column3-left h2 {
   font-size: 35px;
 }
 
-.column4-left li {
+.column3-left li {
   font-size: 18px;
 }
 
-.column4-left, .column4-right{
+.column3-left, .column3-right{
   width: 50%;
   padding: 0px 90px;
 }
 
-.column4-left{
+.column3-left{
   float:left;
 }
 
-.column4-right{
+.column3-right{
   float: right;
 }
 
-.row4:after {
+.row3:after {
   content: "";
   display: table;
   clear: both;
@@ -91,28 +91,28 @@
 /* Column Left Pic */
 /* Create three unequal columns that floats next to each other */
 
-.column6-left, .column6-right, .column6-middle{
+.column2-left, .column2-right, .column2-middle{
   padding: 20px 50px;
 }
 
 
-.column6-left{
+.column2-left{
   width: 30%;
   float:left;
 }
 
-.column6-right{
+.column2-right{
 float:right;
 width: 30%;
 }
 
-.column6-middle {
+.column2-middle {
   width: 40%;
   float:left;
 }
 
 /* Clear floats after the columns */
-.row6:after {
+.row2:after {
   content: "";
   display: table;
   clear: both;
@@ -120,7 +120,7 @@ width: 30%;
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column6 {
+  .column2 {
     width: 100%;
   }
 }

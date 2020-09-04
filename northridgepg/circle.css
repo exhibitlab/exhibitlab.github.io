@@ -43,20 +43,20 @@ color:#2facba;
   text-align: right;
 }
 
-.content-1 .column7-left{
+.content-1 .column1-left{
   width: 90%;
   float:left;
 }
 
 
-.content-1 .column7-right{
+.content-1 .column1-right{
   width: 10%;
   float: right;
   text-align: center;
 
 }
 
-.content-1 .column7-right, .column7-left {
+.content-1 .column1-right, .column1-left {
   height: 70px;
   /* padding-left: 18%;
   padding-top:18%;
@@ -67,7 +67,7 @@ color:#2facba;
 }
 
 
-.row7:after {
+.row1:after {
   content: "";
   display: table;
   clear: both;

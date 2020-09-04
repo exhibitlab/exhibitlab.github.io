@@ -40,12 +40,12 @@ text-align: center;
 .column6-left, .column6-right, .column6-middle{
 }
 
-.row6 h4,  .row62 h4  {
+.row6 h4,  .row7 h4  {
   font-size: 20px;
   color:#34807c;
 }
 
-.row6 p, .row62 p {
+.row6 p, .row7 p {
   font-size: 16px;
   color:#737373;
   line-height: 25px;
@@ -77,39 +77,39 @@ width: 32%;
 
 
 /* Second Row of Icons */
-.row62{
+.row7{
 text-align: center;
   padding: 10px 50px;
 }
 
-.column62-left, .column62-right{
+.column7-left, .column7-right{
   padding: 20px 50px;
 }
 
-.column62-left, .column62-right{
+.column7-left, .column7-right{
 }
 
 
-.column62-left{
+.column7-left{
   margin-left: 150px;
   width: 36%;
   float:left;
 }
 
-.column62-right{
+.column7-right{
   margin-right: 150px;
 float:right;
 width: 32%;
 }
 
-.row62:after {
+.row7:after {
   content: "";
   display: table;
   clear: both;
 }
 
 @media screen and (max-width: 600px) {
-  .column62 {
+  .column7 {
     width: 100%;
   }
 }
