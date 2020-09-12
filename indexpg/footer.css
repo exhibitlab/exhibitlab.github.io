@@ -1,0 +1,60 @@
+.footer1Container {
+  padding: 40px 10px 20px 20px;
+  background-color: white;
+  text-decoration: none;
+  font-size: 35px;
+  line-height: 25px;
+  color:#002873;
+  font-weight: 500;
+  width:100%;
+
+}
+
+.footer1Container-content .column {
+	font-size: 16px;
+  background-color: white;
+
+ }
+
+.footer1Container a:hover {
+   color: black;
+   background-color: transparent;
+   text-decoration: none;
+ }
+
+a:link {
+  color: #9c9c9c;
+  background-color: transparent;
+}
+
+a:visited {
+  color: #9c9c9c;
+  background-color: transparent;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width:201px;
+  padding: 10px 10px 10px 5px;
+  line-height: 25px;
+}
+
+/* icon footer */
+
+.footer2Container{
+  background-color: #dbdbdb;
+  width:100%;
+  word-spacing: 0px;
+  font-size: 16px;
+  float:left;
+  padding: 15px 5px 1px 15px;
+}
+
+.footer2Container-left {
+  float: left;
+}
+
+.footer2Container-right {
+  float:right;
+}
