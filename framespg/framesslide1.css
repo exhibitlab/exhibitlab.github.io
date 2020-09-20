@@ -1,14 +1,39 @@
-
-.center h2{
-  font-size: 35px;
-
+.framesslide1Container {
+padding: 60px 50px;
+background-color:#c7deff;
+text-align: center;
 }
-.center {
+
+.framesslide1Container p{
+  text-align: left;
+  font-size: 18px;
+  color:#03052b;
+  padding: 50px 50px 30px 80px;
+}
+
+.framesslide1Container h1{
   text-align: center;
-  padding: 60px 200px;
-  font-size: 18px
+  font-size: 35px;
+  color:#0c2c59;
+  padding: 0px 150px 30px 150px;
 }
 
-li {
-  list-style: none;
+.framesslide1Container img{
+  /* padding-left: 100px; */
+  height: 35%;
+  /* width: 50%; */
+}
+
+.framesslide1Container h2{
+  padding: 0px 80px 20px 80px;
+}
+
+.framesslide1Container h2 a{
+  font-size: 30px;
+  text-decoration: none;
+  color:#1b447d;
+}
+
+.framesslide1Container h2 a:hover {
+  color:#4d1b09;
 }

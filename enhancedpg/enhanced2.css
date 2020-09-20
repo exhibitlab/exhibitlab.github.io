@@ -1,0 +1,55 @@
+/* Base Isolater */
+.northslide2Container {
+  padding: 60px 50px;
+  background-color:#a7c6d4;
+}
+
+.northslide2Container h2 {
+  font-size: 35px;
+  color:#213d52;
+}
+
+
+.northslide2Container p{
+  font-size:20px;
+  color:#42170b;
+  padding-top:5px
+}
+
+/* Column Left Pic */
+.column2-right h2 {
+  font-size: 35px;
+}
+
+.column2-right li {
+  font-size: 18px;
+  color:#575757;
+}
+
+.column2-left{
+  width: 35%;
+  float:left;
+  padding-top: 10px;
+  text-align: center;
+
+}
+
+.column2-right{
+  width: 65%;
+  float: right;
+  padding: 60px 50px;
+}
+
+
+/* .column2-right, .column2-left {
+  height: 870px;
+} */
+
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* !Column Left Pic */
+/* !Base Isolater */
