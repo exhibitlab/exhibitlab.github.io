@@ -35,7 +35,7 @@
   border-bottom: 700px solid rgba(0, 0, 0, 0.5);
   border-left: 500px solid transparent;
 
-  width:800px;
+
   height:100%;
 }
 
@@ -47,95 +47,59 @@
 
 .carousel-text h1{
   font-size: 35px;
+  color:#c4e2ff;
 }
 
-.button2 {
-  background-color:#2aa2bd;
-  border: none;
-  color: white;
-  padding: 10px 60px;
-  text-align: center;
-  display: inline-block;
-  font-size: 20px;
-  margin: 2px 1px;
-  cursor: pointer;
-  border-radius: 40px;
+.carousel-text p{
+  color:#d7e7f5;
 }
 
-button:hover.button2 {
-  background-color:#217f94;
-  color:white;
-}
 
-/* .slideshowContainer {
+.middle{
   position: relative;
+  left: 325px;
+  transform: translate(-50%,-50%);
+}
+#myBtn{
+  border: 2px solid #6f8abf;
+  background-color: rgba(255, 0, 0, 0);
+  padding: 14px 28px;
+  font-size: 16px;
+
+
+  position: relative;
+  display: block;
+  text-decoration: none;
+  margin: 30px 0;
   overflow: hidden;
-
-  width: 100%;
-  height: 500px;
+  transition: 1s all ease;
+  /* border-radius: 40px; */
 }
-
-.imageSlides {
+#myBtn::before{
+  background:#6f8abf;
+  content: "";
   position: absolute;
-  left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
+  left: 50%;
+  transform: translate(-50%,-50%);
   z-index: -1;
+  transition: all 0.6s ease;
 }
 
-.visible {
-  opacity: 1;
+#myBtn::before{
+  width: 100%;
+  height: 0%;
+  transform: translate(-50%,-50%) rotate(45deg);
+}
+#myBtn:hover::before{
+  height: 380%;
 }
 
-.slideshowArrow {
-  font-size: 7em;
-  color: rgba(255, 255, 255, 0.5);
-  cursor: pointer;
-  transition: opacity 0.2s ease-in-out;
+.middle a:hover{
+  text-decoration: none;
+  color:black !important;
 }
 
-.slideshowArrow:hover {
-  opacity: 0.75;
+.middle a{
+  color:#6f8abf !important;
 }
-
-#leftArrow {
-  position: absolute;
-  left: 4%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#rightArrow {
-  position: absolute;
-  right: 4%;
-  top: 50%;
-  transform: translate(50%, -50%);
-}
-
-.slideshowCircles {
-  position: absolute;
-  bottom: 2%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.circle {
-  display: inline-block;
-  margin-left: 3px;
-  margin-right: 3px;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  border: solid 2px rgba(255, 255, 255, 0.5);
-  transition: 1s ease-in-out;
-}
-
-.dot {
-  background-color: rgba(255, 255, 255, 0.7);
-  border: solid 2px rgba(255, 255, 255, 0.5);
-} */

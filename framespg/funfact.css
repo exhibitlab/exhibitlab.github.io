@@ -98,6 +98,7 @@
   margin: 30px 0;
   overflow: hidden;
   transition: 1s all ease;
+  
 }
 #myBtn::before{
   background: #522009;

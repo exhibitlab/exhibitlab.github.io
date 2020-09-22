@@ -8,8 +8,8 @@ background-color:#31a8b5;
 .framesslide4Container h2{
   font-size: 35px;
   color:#164473;
-  text-align: center;
-  padding-bottom:20px;
+  text-align: left;
+
 }
 
 .column2-left li {
@@ -20,7 +20,7 @@ background-color:#31a8b5;
 .column2-left{
   width: 65%;
   float:left;
-  padding: 60px 50px;
+  padding: 10px 50px;
 
 }
 
@@ -31,7 +31,7 @@ background-color:#31a8b5;
 }
 
 .column2-right, .column2-left {
-  height: 400px;
+  /* height: 400px; */
 
 }
 
