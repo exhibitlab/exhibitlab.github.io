@@ -27,11 +27,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <!-- Local Bootstrap -->
-    <!-- <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href=../"bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script> -->
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+
     <style>
+    /* For some reason, the style changes when I stick it in a seperate css file,
+    so here it will go, this is the css for the slide 2 cards, if you can fix it, go ahead */
       .panel {
         border: 1px solid  #63a2c9;
         border-radius:0 !important;
@@ -88,7 +92,7 @@
           <ul class="dropdown-menu">
             <li><a href="./crsbfpg/crsbf.html">CRSBF</a></li>
             <li><a href="./outcomespg/outcomes.html">Economic and Environmental Impacts</a></li>
-            <li><a href="#">2D and 3D Models</a></li>
+            <li><a href="./modelspg/models.html">2D and 3D Models</a></li>
             <li><a href="./outcomemodelspg/outcomemodels.html">Outcome Modeling</a></li>
           </ul>
         </li>
@@ -158,7 +162,7 @@
             </p>
             <br>
             <div class="middle">
-              <a href="./crsbfpg/crsbf.html"><button id="myBtn">Learn More</button></a>
+              <a href="#"><button id="myBtn">Learn More</button></a>
             </div>
           </div>
         </div>
@@ -178,32 +182,11 @@
             </p>
             <br>
             <div class="middle">
-              <a href="./modelspg/models.html"><button id="myBtn">Learn More</button></a>
+              <a href="#"><button id="myBtn">Learn More</button></a>
             </div>
         </div>
         </div>
       </div>
-
-      <!-- <div class="item">
-        <img src="https://g.foolcdn.com/editorial/images/575196/stock-arrow-up-blue-background.jpg" style="filter:brightness(40%);" alt="lake surrounded by mountains">
-        <div class="carousel-caption">
-          <div class="carousel-text">
-            <br>
-            <h1><span>CRSBF&nbsp;</span><span style="color:#c4e2ff">IMPACTS</span></h1>
-            <br>
-            <p>Once the controlled rocking steel brace frame sustains damage, the cost of<br>
-              the repaired and replaced parts is less<br> than that of a traditional steel frame.
-               In addition, the CRSBF takes less energy to construct and emits less greenhouse
-                gases over its lifetime. An interactive model goes in depth about how
-               different aspects of the CRSBF affect its economic and environmental impact.</p>
-            <br>
-            <div class="middle">
-              <a href="./outcomespg/outcomes.html"><button id="myBtn">Learn More</button></a>
-            </div>
-        </div>
-        </div>
-      </div>
-    </div> -->
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -221,99 +204,56 @@
 
 <!-- Slide 2 -->
 <section>
-  <!-- CSS for multicolor titles -->
-  <!-- CSS for multiple sizes within the same class/p -->
-
   <div class="slide2Container">
-
-
     <div class="container-fluid">
-  <div class="text-center">
-    <h2>BUILDING SYSTEMS</h2>
-  </div>
-  <div class="row">
-    <!-- <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h3>Resilient and Sustainable Buildings</h3>
-        </div>
-        <div class="panel-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
-            <button class="btn btn-lg"><a href="#">Learn More</a></button>
-        </div>
-
+      <div class="text-center">
+        <h2>BUILDING SYSTEMS</h2>
       </div>
-    </div> -->
-    <div class="col-sm-6 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h3>Conventional Earthquake Resisting Systems</h3>
-        </div>
-        <div class="panel-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
-            <div class="middle2">
-              <a href="./framespg/frames.html"><button id="myBtn2">Learn More</button></a>
+
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h3>Conventional Earthquake Resisting Systems</h3>
             </div>
+
+            <div class="panel-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                  ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+                <div class="middle2">
+                  <a href="./framespg/frames.html"><button id="myBtn2">Learn More</button></a>
+                </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-xs-12">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h3>Enhanced Earthquake Resistant Systems</h3>
+            </div>
+
+            <div class="panel-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                  ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+                  <div class="middle2">
+                    <a href="./enhancedpg/enhanced.html"><button id="myBtn2">Learn More</button></a>
+                  </div>
+            </div>
+          </div>
         </div>
 
       </div>
     </div>
-    <div class="col-sm-6 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h3>Enhanced Earthquake Resistant Systems</h3>
-        </div>
-        <div class="panel-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
-              <div class="middle2">
-                <a href="./enhancedpg/enhanced.html"><button id="myBtn2">Learn More</button></a>
-              </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-    <!-- <div class="title"><br>
-      <span>OUR</span> <span style="font-weight: 500; color:#0a3e54">THESIS</span>
-    </div> <br>
-
-    <div class="squares">
-      <div class="icon1"><br><br>
-        <i class='fas fa-book-open' style="font-size:35px;color:#0d6794"></i><br><br><br>
-        <p style="font-size:25px;">PUBLICATION</p><br>
-        <p>Additional Reading</p><br>
-        <a href="#publication">Learn More</a>
-      </div>
-
-      <div class="icon2"><br><br>
-        <i class='fas fa-building' style="font-size:35px;color:#0fa399"></i><br><br><br>
-        <p style="font-size: 25px;">PROOF</p><br>
-        <p>Mathematical Equations</p><br>
-        <a href="#research">Learn More</a>
-     </div>
-
-     <div class="icon2"><br><br>
-       <i class='fas fa-building' style="font-size:35px;color:#0fa399"></i><br><br><br>
-       <p style="font-size: 25px;">PROOF</p><br>
-       <p>Mathematical Equations</p><br>
-       <a href="#research">Learn More</a>
-    </div>
-
-   </div> -->
 
   </div>
 </section>
@@ -338,14 +278,10 @@
 </section>
 
 <!-- Slide 4 -->
-
 <section>
   <div class="slide4Container">
       <h2>Control Rocking Steel Braced Frames</h2><br>
-
-    <div id="myDIV">
-
-
+      <div id="myDIV">
         <div class="center">
           <button data-toggle="tab" data-target="#content1" class="btn active">
             <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
@@ -375,95 +311,77 @@
             <span>CRSBF Impacts</span>
           </button>
         </div>
+      </div>
 
-    </div>
+      <div class="tab-contents">
+        <div class="tab active" id="content1">
+          <div class="row">
+            <div class="col-sm-6" style="text-align:left">
+              <h3>CRSBF Behavior</h3>
+              <p>Unlike traditional steel frames, the end columns of the Controlled Rocking
+                Steel Brace Frame are designed to rise up when undergoing an earthquake,
+                causing the entire frame to rotate. The post-tensioning strands in the
+                middle of the frame provide the force needed to recenter the frame once
+                it starts lifting off of the ground, reducing the building’s drift.
+              </p>
 
-    <div class="tab-contents">
-      <div class="tab active" id="content1">
+              <div class="middle4">
+                <a href="./crsbfpg/crsbf.html"><button id="myBtn4">Learn More</button></a>
+              </div>
+            </div>
 
-        <div class="row">
-          <div class="col-sm-6" style="text-align:left">
-            <h3>CRSBF Behavior</h3>
-            <p>Unlike traditional steel frames, the end columns of the Controlled Rocking
-              Steel Brace Frame are designed to rise up when undergoing an earthquake,
-              causing the entire frame to rotate. The post-tensioning strands in the
-              middle of the frame provide the force needed to recenter the frame once
-              it starts lifting off of the ground, reducing the building’s drift.
-            </p>
-
-            <div class="middle4">
-              <a href="#exhibit"><button id="myBtn4">Learn More</button></a>
+            <div class="col-sm-6"><br>
+              <img src="https://www.corvallisoregon.gov/sites/default/files/styles/gallery500/public/imageattachments/publicworks/page/4021/earthquake-stock-art_shutterstock_license_web.jpg?itok=-jIzhAhR" height="300px" width="400px" alt="beach side city view">
             </div>
 
           </div>
-
-          <div class="col-sm-6">
-            <br>
-            <img src="https://www.corvallisoregon.gov/sites/default/files/styles/gallery500/public/imageattachments/publicworks/page/4021/earthquake-stock-art_shutterstock_license_web.jpg?itok=-jIzhAhR" height="300px" width="400px" alt="beach side city view">
-
-          </div>
-
         </div>
 
+        <div class="tab" id="content2">
+          <div class="row">
+            <div class="col-sm-6" style="text-align:left">
+              <h3>CRSBF 3D Model</h3>
+              <p>Using [3D modeling software of your choice], a model of the Controlled
+                Rocking Steel Brace Frame was created. Distinct features such as
+                post-tensioning strands and a replaceable fuse.
+                NOTE: description to be edited once actual model is finished to accurately reflect the work done
+              </p>
 
+              <div class="middle4">
+                <a href="./modelspg/models.html"><button id="myBtn4">Learn More</button></a>
+              </div>
+            </div>
 
-      </div>
-
-      <div class="tab" id="content2">
-        <div class="row">
-          <div class="col-sm-6" style="text-align:left">
-            <h3>CRSBF 3D Model</h3>
-            <p>Using [3D modeling software of your choice], a model of the Controlled
-              Rocking Steel Brace Frame was created. Distinct features such as
-              post-tensioning strands and a replaceable fuse.
-              NOTE: description to be edited once actual model is finished to accurately reflect the work done
-            </p>
-
-            <div class="middle4">
-              <a href="#exhibit"><button id="myBtn4">Learn More</button></a>
+            <div class="col-sm-6"><br>
+              <img src="https://www.corvallisoregon.gov/sites/default/files/styles/gallery500/public/imageattachments/publicworks/page/4021/earthquake-stock-art_shutterstock_license_web.jpg?itok=-jIzhAhR" height="300px" width="400px" alt="beach side city view">
             </div>
 
           </div>
-          <div class="col-sm-6">
-            <br>
-            <img src="https://www.corvallisoregon.gov/sites/default/files/styles/gallery500/public/imageattachments/publicworks/page/4021/earthquake-stock-art_shutterstock_license_web.jpg?itok=-jIzhAhR" height="300px" width="400px" alt="beach side city view">
-
-          </div>
-
-
         </div>
-      </div>
 
-      <div class="tab" id="content3">
+        <div class="tab" id="content3">
+          <div class="row">
+            <div class="col-sm-6" style="text-align:left">
+              <h3>CRSBF Impacts</h3>
+              <p>Once the Controlled Rocking Steel Brace Frame sustains damage, the cost of the
+                repaired and replaced parts is less than that of a traditional steel
+                frame. In addition, the CRSBF takes less energy to construct(?) and emits
+                less greenhouse gases over its lifetime. An interactive model goes in
+                depth about how different aspects of the CRSBF affect its economic and environmental impact.
+              </p>
 
-        <div class="row">
-          <div class="col-sm-6" style="text-align:left">
-            <h3>CRSBF Impacts</h3>
-            <p>Once the Controlled Rocking Steel Brace Frame sustains damage, the cost of the
-              repaired and replaced parts is less than that of a traditional steel
-              frame. In addition, the CRSBF takes less energy to construct(?) and emits
-              less greenhouse gases over its lifetime. An interactive model goes in
-              depth about how different aspects of the CRSBF affect its economic and environmental impact.
-            </p>
-
-            <div class="middle4">
-              <a href="#exhibit"><button id="myBtn4">Learn More</button></a>
+              <div class="middle4">
+                <a href="./outcomespg/outcomes.html"><button id="myBtn4">Learn More</button></a>
+              </div>
             </div>
 
+            <div class="col-sm-6"><br>
+              <img src="https://www.corvallisoregon.gov/sites/default/files/styles/gallery500/public/imageattachments/publicworks/page/4021/earthquake-stock-art_shutterstock_license_web.jpg?itok=-jIzhAhR" height="300px" width="400px" alt="beach side city view">
+            </div>
           </div>
-          <div class="col-sm-6">
-            <br>
-            <img src="https://www.corvallisoregon.gov/sites/default/files/styles/gallery500/public/imageattachments/publicworks/page/4021/earthquake-stock-art_shutterstock_license_web.jpg?itok=-jIzhAhR" height="300px" width="400px" alt="beach side city view">
-
-          </div>
-
 
         </div>
-
       </div>
-    </div>
-
-
 
   </div>
 </section>
