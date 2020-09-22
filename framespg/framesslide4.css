@@ -1,0 +1,43 @@
+.framesslide4Container{
+background-color:#31a8b5;
+  text-align: left;
+  padding: 60px 50px;
+  font-size: 18px
+}
+
+.framesslide4Container h2{
+  font-size: 35px;
+  color:#164473;
+  text-align: left;
+
+}
+
+.column2-left li {
+  font-size: 20px;
+  color:#0e4145;
+}
+
+.column2-left{
+  width: 65%;
+  float:left;
+  padding: 10px 50px;
+
+}
+
+.column2-right{
+  width: 35%;
+  float: right;
+  text-align: center;
+}
+
+.column2-right, .column2-left {
+  /* height: 400px; */
+
+}
+
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}

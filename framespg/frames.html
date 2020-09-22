@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 <span style="font-family: Montserrat, sans-serif;">
 <head>
@@ -12,8 +12,13 @@
   <link rel="stylesheet" type="text/css" href="circle.css">
 
   <link rel="stylesheet" type="text/css" href="framesslide1.css">
-  <link rel="stylesheet" type="text/css" href="framesnav.css">
+  <link rel="stylesheet" type="text/css" href="framesslide2.css">
+  <!-- <link rel="stylesheet" type="text/css" href="framesnav.css"> -->
+    <link rel="stylesheet" type="text/css" href="funfact.css">
   <link rel="stylesheet" type="text/css" href="framesslide3.css">
+
+    <link rel="stylesheet" type="text/css" href="framesslide4.css">
+
 
   <!-- Font and Icon stylesheets -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -46,7 +51,6 @@
         <li class="dropdown"><a href="#exh">EARTHQUAKES</a>
           <ul class="dropdown-menu">
             <li><a href="../timepg/timeline.html">Timeline</a></li>
-            <li><a href="../northridgepg/northridge.html">Northridge Earthquake</a></li>
           </ul>
         </li>
 
@@ -54,7 +58,7 @@
           <ul class="dropdown-menu">
             <li><a href="#">Resilient and Sustainable Buildings</a></li>
             <li><a href="../framespg/frames.html">Conventional Earthquake Resisting Systems</a></li>
-            <li><a href="#">Enhanced Earthquake Resistant Systems</a></li>
+            <li><a href="../enhancedpg/enhanced.html">Enhanced Earthquake Resistant Systems</a></li>
           </ul>
         </li>
 
@@ -106,8 +110,8 @@
   <div class="crsbfslide1Container">
     <img class="image" src="https://cdn.redshift.autodesk.com/2018/08/future-of-buildings-header.jpg" alt="leaf on the ground">
     <div class="content-1">
-      <div class="row1"> <br>
-        <div class="column1-left"><p>Moment Frames</p></div>
+      <div class="row1"> <br><br><br>
+        <div class="column1-left"><p> Steel Moment Frames</p></div>
         <div class="column1-right" >
           <a href="#moment"><div class="circle"><i class='fas fa-building'></i></div></a>
         </div>
@@ -119,23 +123,17 @@
 
         <div class="column1-left"><p>Shear Walls</p></div>
         <div class="column1-right" >
-          <a href="../shearpg/shear.html"><div class="circle"><i class='fas fa-building'></i></div></a>
+          <a href="#walls"><div class="circle"><i class='fas fa-building'></i></div></a>
         </div>
 
-        <div class="column1-left"><p>Types of Braced Frames</p></div>
-        <div class="column1-right">
-          <a href="#types"><div class="circle"><i class='fas fa-building'></i></div></a>
-        </div>
       </div>
     </div>
 
     <div class="content-2">
-      <h1>Lateral Force Resisting<br>Systems (LRFS)</h1>
-      <p>LRFS are highly performance-base and cost
-        effective, where the three main types are moment frames, braced frames, and
-        shear walls. Continue to explore the pros and cons for moment frames and
-        the different types of braced frames based on the following criteria: stiffness,
-        functionality, strength, cost, and aesthetics.</p>
+      <h1>Conventional Earthquake Resisting Systems</h1>
+      <p>When designing for the long term, structural engineers tend to lean
+        towards conventional earthquake resisting systems due to their performance-based
+        and cost effective characteristics</p>
     </div>
 
   </div>
@@ -143,42 +141,158 @@
 
 <!-- Slide 1 -->
 <section>
-  <!-- CSS text/background color because css is shared with slide 2 -->
+  <div class="framesslide1Container">
+    <h1>There are three types of conventional systems:</h1>
 
-  <div id="moment">
-    <div class="center" style="background-color: #bacfd9;">
-      <h2 style="color:#1a81ad">Moment Frames</h2>
-      <li> Modern moment frames are used mostly for window design, due to their limited usefullness</li>
-      <li>Fuses: Bending, “flexural yield,” can happen at end of beams</li>
-      <li>Advantages: Flexibility in architectural design, economical foundation systems, strong columns</li>
-      <li>Disadvantages: difficult electrical coordination, heavier sections, labor intensive
-        connections and special detailing, increased costs, drift control problems, weak beam</li>
-      <br><br>
-      <img src = "https://www2.strongtie.com/graphics/strongframe/home/home-strongframes.jpg" height="50%" width = "50%" 	alt = "were my pic at?">
+    <h2>
+      <div class="row">
+        <div class="col-sm-4"><a href="#moment">Steel Moment Resisting Frames (MRF)</a></div>
+        <div class="col-sm-4"><a href="#braced">Steel Concentrically Braced Frames (CBF)</a></div>
+        <div class="col-sm-4"><a href="#walls">Concrete Shear Walls (SW)</a></div>
+      </div>
+    </h2>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p>These systems are able to resist lateral
+          forces with their <b>strong stiffness</b> and dissipate energy through their <br><b>inelastic
+          behavior</b> when deforming during an earthquake, thus permanently damaging the
+          structural elements.
+        </p>
+      </div>
+      <div class="col-sm-6">
+        <p>Every type has a <b>specific fuse mechanism</b> used to dissipate the energy produced
+          by the earthquake in the building. However, all the fuses’ capacity for conventional
+          earthquake resisting systems have a limit and get <b>permanently damaged</b>.
+        </p>
+      </div>
     </div>
+    <img src = "pic1.png"	height="500px" width="1000px" alt = "were my pic at?"><br><br>
   </div>
 </section>
 
 <!-- Slide 2 -->
 <section>
-  <!-- CSS text/background color because css is shared with slide 1 -->
+  <div id="moment">
+    <div class="framesslide2Container">
+        <h2>Steel Moment Frames</h2>
 
+        <div class="row4">
+          <div class="column4-left"><br>
+            <li> These frames are ideal to <b>counteract intense ground motion</b>,
+              since their rigid joints and flexible members can resist rotation
+              at connections caused by earthquakes.</li>
+            <li>MRFs dissipate energy by the bending behavior, or <b>“flexural yielding”</b>
+              that can happen at the connection between beams and columns. </li>
+            <br>
+
+            <!-- Fun Fact Button -->
+            <div class="middle">
+            <button id="myBtn">Fun Fact</button>
+          </div>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h2>Fun Fact</h2>
+                </div>
+
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <p>This connection was very common before the Northridge earthquake, which
+                        failed afterward from brittle fracture. Alternatives to reduce this
+                        possibility were considered such as welding with strong fracture toughness,
+                        inspection, or using prequalified connections by AISC.
+                      </p>
+                      <img src = "pic7.png" height:="500px" width="500px"  alt = "were my pic at?">
+
+                    </div>
+                    <div class="col-sm-6" style="text-align:center">
+                      <img src = "pic5.png" height:="300px" width="300px" alt = "were my pic at?">
+                    </div>
+                  </div>
+                  <!-- <div class="images">
+                    <img src = "pic6a.png" height:="100px" width="100px" alt = "were my pic at?">
+                    <img src = "pic6b.png" height:="100px" width="100px" alt = "were my pic at?">
+                    <img src = "pic6e.png" height:="100px" width="100px" alt = "were my pic at?">
+                    <img src = "pic6d.png" height:="100px" width="100px" alt = "were my pic at?">
+                    <img src = "pic6c.png" height:="100px" width="100px" alt = "were my pic at?">
+                  </div> -->
+                </div>
+
+                <div class="modal-footer">
+                  <h3>&nbsp;</h3>
+                </div>
+
+              </div>
+            </div>
+            <script src="funfact.js"></script>
+          </div>
+
+          <div class="column4-right">
+            <img src = "pic2.png" height:="400px" width="400px" alt = "were my pic at?">
+          </div>
+        </div>
+
+      </div>
+    </div>
+</section>
+
+<!-- Slide 3 -->
+<section>
   <div id="braced">
-    <div class="center" style="background-color:#f2f6f7;">
-      <h2 style="color:#1a81ad">Braced Frames</h2>
-      <li>Braced Frames look like moment frames, however they have members in the
-        center of the openings that help support some of the lateral forces and
-        therefore making engineers decrease the column sizes. Another differentiation
-        is that braced frames do not use moment connections, making them a preferable
-        option over moment frames.</li>
-      <br><br>
-      <img src = "https://www.researchgate.net/profile/Ali_Imanpour/publication/315869849/figure/fig1/AS:539439252623360@1505623748943/Numerical-model-of-the-braced-frame-including-gravity-columns.png" height="50%" width = "50%" 	alt = "were my pic at?">
+    <div class="framesslide3Container">
+
+      <div class="row">
+        <div class="col-sm-4" style="text-align:center; padding-top:20px;">
+          <img src = "pic3a.png" height:="250px" width="250px" alt = "were my pic at?">
+        </div>
+        <div class="col-sm-4">
+          <h2>Braced Frames</h2>
+          <li>Visually similar to moment frames, they have members in the center of
+            the openings that help support some of the lateral forces and therefore
+            <b>decrease the column sizes</b>. Another differentiation is that braced frames
+            do not use any moment connections, making them a <b>preferable option</b> over
+            moment frames.</li><br>
+          <li>CBFs dissipate energy by <b>tensile yielding and compressive buckling</b> of braces</li>
+        </div>
+        <div class="col-sm-4" style="text-align:center">
+          <img src = "pic3b.png" height:="250px" width="250px" alt = "were my pic at?">
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <!-- <div class="row3">
+        <div class="column3-right">
+          <h2>Braced Frames</h2>
+          <li>Visually similar to moment frames, they have members in the center of
+            the openings that help support some of the lateral forces and therefore
+            <b>decrease the column sizes</b>. Another differentiation is that braced frames
+            do not use any moment connections, making them a <b>preferable option</b> over
+            moment frames.</li><br>
+          <li>CBFs dissipate energy by <b>tensile yielding and compressive buckling</b> of braces</li>
+        </div>
+
+        <div class="column3-left">
+          <img src = "pic3b.png" height:="250px" width="250px" alt = "were my pic at?">
+        </div>
+      </div> -->
+
     </div>
   </div>
 </section>
 
 <!-- Frames Nav Bar -->
-<section >
+<!-- <section >
   <div id="types">
     <div class="buffer"><i class='far fa-building'></i><br>Concentrically Braced Frames<br><br></div>
     <div class="framesnav2">
@@ -188,36 +302,37 @@
       <a href="#crsbf1"><i class='far fa-building'></i><br>Controlled Rocking Steel Braced Frame</a>
     </div>
   </div>
-</section>
+</section> -->
 
-<!-- Slide 3 -->
+<!-- Slide 4 -->
 <section>
-  <!-- CSS text/background color because css is shared with slide 4,5 -->
+<div id="walls">
+  <div class="framesslide4Container">
+    <div class="row2">
 
-<div id="cbf">
-  <div class="row2">
+      <div class="column2-left">
+        <h2>Reinforced concrete shear walls</h2>
+        <img src = "pic4b.png" height:="300px" width="300px" alt = "were my pic at?">
+        <li>Shear walls act as a vertical diaphragm to <b>resist lateral
+          forces</b>, especially important in high-rise buildings.</li><br>
+        <li>SWs dissipate energy by the <b>cracking and crushing</b> of concrete at the base
+          of the wall and <b>yielding</b> of reinforcing steel placed inside the wall</li>
+      </div>
 
-    <div class="column2-left">
-      <h2 style="color:#1a5e63">Concentrically Braced Frames (CBF)</h2>
-      <li>In CBF, the two members in the openings of the frame meet at the same point.</li>
-      <li><b style="color:#1a5e63">Fuses:</b> tensile yield and compressive buckling of braces</li>
-      <li><b style="color:#1a5e63">Advantages:</b> very stiff elastically, tension yielding of brace is desirable, no need for moment connection</li>
-      <li><b style="color:#1a5e63">Disadvantages:</b> blocks passage of ducts, obstacle for nice views, brace elastic buckling might govern,
-        large connection, required fireproofing of steel member</li>
+      <div class="column2-right"><br>
+        <img src = "pic4a.png" height:="400px" width="400px" alt = "were my pic at?"><br>
+
+      </div>
+
     </div>
-
-    <div class="column2-right"><br><br><br><br>
-      <img src = "https://www.researchgate.net/profile/Ali_Imanpour/publication/315869849/figure/fig1/AS:539439252623360@1505623748943/Numerical-model-of-the-braced-frame-including-gravity-columns.png" height="50%" width = "50%" 	alt = "were my pic at?">
-    </div>
-
-  </div>
+</div>
 </div>
 </section>
 
 <!-- Slide 4 -->
-<section >
+<!-- <section > -->
   <!-- CSS text/background color because css is shared with slide 3,5 -->
-  <div id="brb" >
+  <!-- <div id="brb" >
     <div class="row3">
 
       <div class="column3-left"><br><br><br>
@@ -235,12 +350,12 @@
 
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- Slide 5 -->
-<section>
+<!-- <section> -->
   <!-- CSS text/background color because css is shared with slide 3,4 -->
-  <div id="ebf">
+  <!-- <div id="ebf">
     <div class="row2">
 
       <div class="column2-left" style="background-color:#f0f7f7">
@@ -257,10 +372,10 @@
 
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- Slide 6 -->
-<section >
+<!-- <section >
   <div id="crsbf1">
 
     <div class="row3">
@@ -280,7 +395,7 @@
 
     </div>
   </div>
-</section>
+</section> -->
 
 
 <!-- footer -->

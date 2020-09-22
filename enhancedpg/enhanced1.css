@@ -1,0 +1,21 @@
+
+/* Title Part */
+.northslide1Container {
+  padding: 30px 150px;
+  padding-bottom: 40px;
+  background-color:#471e0e;
+}
+
+.northslide1Container h2 {
+  font-size: 35px;
+  color:#afcee3;
+  text-align: center;
+}
+
+.northslide1Container p {
+  font-size: 20px;
+  color:#afcee3;
+  text-align: center;
+}
+
+/* !Title Part */
