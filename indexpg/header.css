@@ -19,7 +19,8 @@
 }
 
 .navbar {
-    padding:  15px 15px 0px 15px;
+    padding: 1% 1% 0% 1%
+    /* 15px 15px 0px 15px; */
 }
 
 .navbar .navbar-header a, .navbar .navbar-header a:hover{

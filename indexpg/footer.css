@@ -16,6 +16,11 @@
 
  }
 
+ .footer1Container-title {
+   color:#002873;
+
+ }
+
 .footer1Container a:hover {
    color: black;
    background-color: transparent;
@@ -57,4 +62,14 @@ a:visited {
 
 .footer2Container-right {
   float:right;
+}
+
+@media screen and (max-width: 1000px){
+  .footer1Container p, h4 {
+      display: none;
+  }
+  .footer1Container {
+    line-height: 10px;
+
+  }
 }

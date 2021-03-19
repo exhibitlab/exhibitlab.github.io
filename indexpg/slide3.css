@@ -113,3 +113,11 @@ button:hover.button {
 .middle3 a{
   color: #3ac7c5 !important;
 }
+
+@media screen and (max-width: 1000px){
+  .middle3{
+    position: relative;
+    left: 70%;
+    top:20px;
+    transform: translate(-50%,-50%);
+}
