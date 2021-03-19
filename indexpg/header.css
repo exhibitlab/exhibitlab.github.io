@@ -6,7 +6,7 @@
 		margin-top: 0;
 	}
 	.dropdown-toggle{
-		margin-bottom: auto;
+		margin-bottom: 2px;
 	}
 	.navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
 		margin-bottom: 0;
@@ -19,8 +19,7 @@
 }
 
 .navbar {
-    padding: 1% 1% 0% 1%  
-    /* 15px 15px 0px 15px; */
+    padding:  15px 15px 0px 15px;
 }
 
 .navbar .navbar-header a, .navbar .navbar-header a:hover{
