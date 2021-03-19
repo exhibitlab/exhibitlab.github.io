@@ -5,7 +5,7 @@
 .carousel-inner img {
   width: 100%; /* Set width to 100% */
   margin: auto;
-  height: 500px !important;
+  height: 700px !important;
 }
 
 .carousel-caption h3 {
@@ -105,25 +105,25 @@
     .carousel-inner img {
       width: 100%; /* Set width to 100% */
       margin: auto;
-      height: 100% !important;
-      /* 700px !important; */ee
+      height: 550px !important;
+      /* 700px !important; */
     }
     .carousel-text p{
       display: none;
     }
     .carousel-inner .carousel-caption .carousel-text {
-      padding: 500px 0;
+      padding: 400px 0;
       /* 200px 0; */
-      width:70%;
+      width:300px;
       font-size: 18px;
     }
     .middle{
-      left: 78%;
+      left: 75%;
     }
 
     .carousel-inner .carousel-caption{
-      border-right: 100% solid rgba(0, 0, 0, 0.5);
-      border-bottom: 800px solid rgba(0, 0, 0, 0.5);
+      /* border-right: 100% solid rgba(0, 0, 0, 0.5);
+      border-bottom: 800px solid rgba(0, 0, 0, 0.5); */
       border-left: 300px solid transparent;
     }
 }
