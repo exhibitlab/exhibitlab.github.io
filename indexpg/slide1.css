@@ -105,7 +105,7 @@
     .carousel-inner img {
       width: 100%; /* Set width to 100% */
       margin: auto;
-      height: 100% !important;
+      height: 700px !important;
       /* 700px !important; */ee
     }
     .carousel-text p{
@@ -119,6 +119,9 @@
     }
     .middle{
       left: 78%;
+    }
+  .carousel-inner .carousel-caption{
+      border-left: 300px solid transparent;
     }
 
 }
