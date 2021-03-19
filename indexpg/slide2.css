@@ -6,12 +6,12 @@
   text-align: center;
   width: 100%;
   background-color: #c4e2ff;
-  padding: 1% 8%;
+  padding: 50px 60px;
 
 }
 
 .slide2Container h2{
-  padding-bottom:3%;
+  padding-bottom:30px;
   font-size: 35px;
   color:#0f4d59;
 
@@ -28,11 +28,10 @@
   padding: 0% 3%;
 }
 
-
 .middle2{
   position: relative;
-  left: 87%;
-  /* top:10px; */
+  left: 520px;
+  top:20px;
   transform: translate(-50%,-50%);
 }
 
