@@ -107,7 +107,7 @@
     .carousel-inner img {
       width: 100%; /* Set width to 100% */
       margin: auto;
-      height: 500px !important;
+      height: 100% !important;
       /* 700px !important; */ee
     }
     .carousel-text p{
