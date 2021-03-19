@@ -6,7 +6,7 @@
   text-align: center;
   width: 100%;
   background-color: #1a386e;
-  padding: 50px 60px;
+  padding: 1% 5%;
 }
 
 
@@ -37,7 +37,7 @@
 }
 
 .tab-contents {
-    padding: 90px 180px;
+    padding: 6% 12%;
     text-align: right;
 
 }
@@ -126,8 +126,8 @@ svg {
 
 .middle4{
   position: relative;
-  left: 350px;
-  top:20px;
+  left: 80%;
+  top:10%;
   transform: translate(-50%,-50%);
 }
 #myBtn4{

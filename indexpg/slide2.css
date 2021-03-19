@@ -6,12 +6,12 @@
   text-align: center;
   width: 100%;
   background-color: #c4e2ff;
-  padding: 50px 60px;
+  padding: 1% 8%;
 
 }
 
 .slide2Container h2{
-  padding-bottom:30px;
+  padding-bottom:3%;
   font-size: 35px;
   color:#0f4d59;
 
@@ -25,7 +25,7 @@
 .slide2Container p{
   font-size: 18px;
   color:#0f4059;
-  padding: 0px 30px;
+  padding: 0% 3%;
 
 }
 
@@ -33,14 +33,14 @@
 @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
-    margin: 25px 0;
+    margin: 20% 0%;
   }
 }
 
 .middle2{
   position: relative;
-  left: 520px;
-  top:20px;
+  left: 87%;
+  /* top:10px; */
   transform: translate(-50%,-50%);
 }
 #myBtn2{
