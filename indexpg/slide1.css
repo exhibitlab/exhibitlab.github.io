@@ -121,7 +121,9 @@
       left: 78%;
     }
   .carousel-inner .carousel-caption{
-      border-left: 300px solid transparent;
+      border-right: 100% solid rgba(0, 0, 0, 0.5);
+      border-bottom: 800px solid rgba(0, 0, 0, 0.5);
+      border-left: 500px solid transparent;
     }
 
 }
