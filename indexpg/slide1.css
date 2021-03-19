@@ -5,7 +5,7 @@
 .carousel-inner img {
   width: 100%; /* Set width to 100% */
   margin: auto;
-  height: 700px !important;
+  height: 500px !important;
 }
 
 .carousel-caption h3 {
