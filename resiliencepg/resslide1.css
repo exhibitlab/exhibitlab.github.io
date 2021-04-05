@@ -1,0 +1,24 @@
+.resslide1Container {
+  padding: 60px 50px;
+  background-color:#255a80;
+}
+
+.resslide1Container h2 {
+  font-size: 35px;
+  color:#17a390;
+}
+
+.resslide1Container h4 {
+  font-size: 30px;
+  color:#88adcf;
+}
+
+.resslide1Container p{
+  font-size: 24px;
+  color:#e6e6e6;
+}
+
+video {
+  display: block;
+  width:100%;
+}
