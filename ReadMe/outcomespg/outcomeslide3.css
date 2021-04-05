@@ -1,0 +1,18 @@
+.outcomeslide3Container {
+  padding: 60px 50px;
+  background-color:#4a1c12;
+}
+
+.outcomeslide3Container h2 {
+  font-size: 35px;
+  color:#baced9;
+  text-align: center;
+}
+
+.outcomeslide3Container h4 {
+  font-size: 25px;
+}
+
+.outcomeslide3Container p{
+  font-size: 18px;
+}

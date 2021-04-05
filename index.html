@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8">
     <title> ExhibitLab </title>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1″>
     <link rel="stylesheet" type="text/css" href="./indexpg/header.css">
     <link rel="stylesheet" type="text/css" href="./indexpg/footer.css">
 
@@ -63,72 +64,72 @@
 
 <body>
 
-<!-- header -->
-<nav id="myNavbar" class="navbar navbar-default navbar-fixed-top" style="background-color:white" role="navigation">
-  <div class="container-fluid"> <!-- allows for full width header -->
-    <div class="navbar-header">
-      <a class="navbar-brand" href="index.html">ExhibitLab</a>
+  <!-- header -->
+  <nav id="myNavbar" class="navbar navbar-default navbar-fixed-top" style="background-color:white" role="navigation">
+    <div class="container-fluid"> <!-- allows for full width header -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">ExhibitLab</a>
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+
+          <li class="dropdown"><a href="#exh">EARTHQUAKES</a>
+            <ul class="dropdown-menu">
+              <li><a href="./timepg/timeline.html ">Timeline</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#mod">BUILDING SYSTEMS</a>
+            <ul class="dropdown-menu">
+              <li><a href="./resiliencepg/resilience.html">Resilient and Sustainable Buildings</a></li>
+              <li><a href="./framespg/frames.html">Conventional Earthquake Resisting Systems</a></li>
+              <li><a href="./enhancedpg/enhanced.html">Enhanced Earthquake Resistant Systems</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#mod">CRSBF MODELING</a>
+            <ul class="dropdown-menu">
+              <li><a href="./crsbfpg/crsbf.html">CRSBF</a></li>
+              <li><a href="./outcomespg/outcomes.html">Economic and Environmental Impacts</a></li>
+              <li><a href="./modelspg/models.html">2D and 3D Models</a></li>
+              <li><a href="http://3.129.22.19:8501/">Outcome Modeling</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#res">RESEARCH</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Thesis</a></li>
+              <li><a href="#">Mathematical Proof</a></li>
+              <li><a href="#">Terminology</a></li>
+              <li><a href="#">Additional Reading</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#med">MEDIA</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Exhibit Walkthrough</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#tem">TEAM</a>
+            <ul class="dropdown-menu">
+              <li><a href="#prof">Leading Professor</a></li>
+              <li><a href="#student">Students</a></li>
+              <li><a href="#extra">Additional Support</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#contact" class="material-icons" style="font-size:20px"> mail_outline </a></li>
+          <li><a href="#search" class="material-icons" style="font-size:20px">search</a></li>
+        </ul>
+      </div>
+
     </div>
-
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-
-        <li class="dropdown"><a href="#exh">EARTHQUAKES</a>
-          <ul class="dropdown-menu">
-            <li><a href="./timepg/timeline.html ">Timeline</a></li>
-          </ul>
-        </li>
-
-        <li class="dropdown"><a href="#mod">BUILDING SYSTEMS</a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Resilient and Sustainable Buildings</a></li>
-            <li><a href="./framespg/frames.html">Conventional Earthquake Resisting Systems</a></li>
-            <li><a href="./enhancedpg/enhanced.html">Enhanced Earthquake Resistant Systems</a></li>
-          </ul>
-        </li>
-
-        <li class="dropdown"><a href="#mod">CRSBF MODELING</a>
-          <ul class="dropdown-menu">
-            <li><a href="./crsbfpg/crsbf.html">CRSBF</a></li>
-            <li><a href="./outcomespg/outcomes.html">Economic and Environmental Impacts</a></li>
-            <li><a href="./modelspg/models.html">2D and 3D Models</a></li>
-            <li><a href="http://18.191.187.7:8501">Outcome Modeling</a></li>
-          </ul>
-        </li>
-
-        <li class="dropdown"><a href="#res">RESEARCH</a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Thesis</a></li>
-            <li><a href="#">Mathematical Proof</a></li>
-            <li><a href="#">Terminology</a></li>
-            <li><a href="#">Additional Reading</a></li>
-          </ul>
-        </li>
-
-        <li class="dropdown"><a href="#med">MEDIA</a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Exhibit Walkthrough</a></li>
-          </ul>
-        </li>
-
-        <li class="dropdown"><a href="#tem">TEAM</a>
-          <ul class="dropdown-menu">
-            <li><a href="#prof">Leading Professor</a></li>
-            <li><a href="#student">Students</a></li>
-            <li><a href="#extra">Additional Support</a></li>
-          </ul>
-        </li>
-
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#contact" class="material-icons" style="font-size:20px"> mail_outline </a></li>
-        <li><a href="#search" class="material-icons" style="font-size:20px">search</a></li>
-      </ul>
-    </div>
-
-  </div>
-</nav>
-<!-- !header -->
+  </nav>
+  <!-- !header -->
 
 
 <!-- Slide 1 -->
@@ -405,7 +406,7 @@
     <div class="column">
       <a href="../crsbfpg/crsbf.html"><h4>CRSBF MODELING</h4></a>
       <a href="../outcomespg/outcomes.html"><p>Economic and Environmental Impacts</p></a>
-      <a href="#"><p>2D and 3D Models</p></a>
+      <a href="../modelspg/models.html"><p>2D and 3D Models</p></a>
       <a href="http://18.191.187.7:8501"><p>Outcome Modeling</p></a>
     </div>
 
